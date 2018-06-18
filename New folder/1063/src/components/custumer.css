@@ -44,7 +44,7 @@ sub{
 /* banner codding */
 
 .banner{
-    background: rgb(28 32 31);
+    background-color: #bf681d;
     padding: 15px 20px;
     text-align: center;
     height: auto;
@@ -62,7 +62,7 @@ sub{
 }
 .banner-btn{
     background: rgb(184, 195, 126);
-    color: black;
+    color: white;
     border-radius: 5px;
     font-weight: bold;
     border: 1px outset;
@@ -87,12 +87,9 @@ h1{
     margin-top: 40px;
 }
 thead tr th{
-    background: rgb(28 32 31);
+    background-color: #bf681d;
     color: white;
     padding: 10px 20px;
-}
-tbody tr td{
-
 }
 tr td img{
     height: 75px;

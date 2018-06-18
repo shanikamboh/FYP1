@@ -1,5 +1,5 @@
 import React from 'react';
-import image from "../images/image.jpg";
+import image from "./image.jpg";
 import "./custumer.css"
 import {
     Col,
@@ -7,7 +7,6 @@ import {
     Row,
     Table
 } from 'reactstrap';
-import NavBar from "./navbar";
 
 export default class Custumer extends React.Component {
     constructor(props) {
@@ -27,7 +26,7 @@ export default class Custumer extends React.Component {
     render() {
         return (
             <div>
-                <NavBar/>
+                
                 <div className="banner">
                     <Row>
                         <Col md={5} sm={5} className="img-responsive" >

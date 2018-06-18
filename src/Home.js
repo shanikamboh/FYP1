@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router,
          Link,
          Route
 
 } from 'react-router-dom'
-import login from './Login.js';
-import signup from './Signup.js';
 
 class App extends Component {
   render() {
